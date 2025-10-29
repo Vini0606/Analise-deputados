@@ -1,0 +1,21 @@
+# Pacotes para Análise e Manipulação de Dados
+pandas        # Usado para carregar, manipular e analisar os dados
+openpyxl      # Necessário para o pandas ler/escrever arquivos .xlsx
+xlrd          # Necessário para o pandas ler arquivos .xls antigos
+
+# Pacotes para Visualização
+seaborn       # Usado para criar as visualizações estatísticas
+matplotlib    # Dependência principal do seaborn para gráficos
+
+# Pacotes para Web Scraping (Selenium)
+selenium              # Usado para automatizar o navegador e encontrar os links do Instagram
+webdriver-manager     # Usado para gerenciar automaticamente o driver do Chrome
+
+# Pacotes para Extração de API (Apify)
+apify-client          # Usado para rodar o Ator da Apify e coletar os dados do Instagram
+
+# Pacotes para Gerenciamento de Configuração
+python-dotenv         # Usado para carregar chaves de API do arquivo .env
+
+# Pacotes para Ambiente de Desenvolvimento
+notebook      # Usado para rodar os arquivos .ipynb de análise e desenvolvimento

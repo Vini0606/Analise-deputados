@@ -1,0 +1,86 @@
+# ===================================================================
+# Arquivos de Segredos e Configuração
+# CRÍTICO: Nunca envie seus tokens de API ou senhas!
+# ===================================================================
+.env
+.env.*
+secrets.yml
+*.key
+
+# ===================================================================
+# Python
+# ===================================================================
+
+# Ambientes Virtuais (venv, env, .venv, etc.)
+# NUNCA envie sua pasta de ambiente virtual
+/venv/
+/env/
+/.venv/
+/.env/
+/pyenv/
+/av_dep/
+
+
+# Cache de Bytecode e Artefatos
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de distribuição / build
+/dist/
+/build/
+*.egg-info/
+*.egg
+
+# Arquivos de cache do Pytest
+.pytest_cache/
+
+# Arquivos de cobertura de teste
+.coverage
+.coverage.*
+htmlcov/
+
+# Cache do Jupyter Notebook
+.ipynb_checkpoints
+
+# =Caches de pacotes
+.cache/
+.mypy_cache/
+.tox/
+
+# ===================================================================
+# Editores de Código e IDEs
+# ===================================================================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===================================================================
+# Arquivos de Sistema Operacional (OS)
+# ===================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
