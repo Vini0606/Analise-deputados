@@ -11,13 +11,14 @@ PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
+PIORES_RANKINGS_DIR = PROCESSED_DATA_DIR / "piores_rankings"
 GRAPHICS_DATA_DIR = DATA_DIR / "Graphics"
 
 
 # --- Arquivos de Entrada ---
 # 1. Arquivo original de deputados
 DEPUTADOS_XLS_IN = RAW_DATA_DIR / "deputados.xls"
-
+DEPUTADOS_CONTATOS_XLSX_IN = RAW_DATA_DIR / "Contato dos deputados federais.xlsx"  # Exemplo: se estiver na pasta raw
 
 # --- Arquivos de Saída (Processados) ---
 # 2. Saída do script 01_enrich_deputies.py
