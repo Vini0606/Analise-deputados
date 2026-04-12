@@ -1,0 +1,18 @@
+[project]
+name = "analise-deputados-brasil"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "xlrd",
+    "seaborn",
+    "matplotlib",
+    "selenium",
+    "webdriver-manager",
+    "apify-client",
+    "python-dotenv",
+    "notebook"
+]
