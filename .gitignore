@@ -19,6 +19,7 @@ secrets.yml
 /.env/
 /pyenv/
 /av_dep/
+/data/
 
 
 # Cache de Bytecode e Artefatos

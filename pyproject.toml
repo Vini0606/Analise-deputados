@@ -14,5 +14,7 @@ dependencies = [
     "webdriver-manager",
     "apify-client",
     "python-dotenv",
-    "notebook"
+    "notebook",
+    "streamlit>=1.56.0",
+    "plotly>=6.7.0",
 ]
